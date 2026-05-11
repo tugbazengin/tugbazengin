@@ -1,0 +1,157 @@
+<svg width="900" height="320" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff5f7"/>
+      <stop offset="100%" stop-color="#fce7f3"/>
+    </linearGradient>
+    <radialGradient id="petal" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fbcfe8"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </radialGradient>
+    <radialGradient id="petal2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fde2e4"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </radialGradient>
+    <radialGradient id="petal3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff1f2"/>
+      <stop offset="100%" stop-color="#fb7185"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="320" fill="url(#sky)"/>
+
+  <!-- subtle floating particles -->
+  <circle cx="80" cy="60" r="3" fill="#fbcfe8" opacity="0.6">
+    <animate attributeName="cy" values="60;40;60" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="820" cy="100" r="2" fill="#f9a8d4" opacity="0.5">
+    <animate attributeName="cy" values="100;80;100" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="750" cy="250" r="2" fill="#fbcfe8" opacity="0.6">
+    <animate attributeName="cy" values="250;230;250" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="120" cy="200" r="2.5" fill="#f9a8d4" opacity="0.5">
+    <animate attributeName="cy" values="200;180;200" dur="6.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- bouquet group with sway animation -->
+  <g transform="translate(200 250)">
+    <animateTransform attributeName="transform" type="rotate"
+      values="-2 0 0; 2 0 0; -2 0 0" dur="5s" repeatCount="indefinite"
+      additive="sum"/>
+
+    <!-- wrap paper -->
+    <path d="M -50 -10 L -100 10 L 100 10 L 50 -10 Z" fill="#fdf2f8" stroke="#ec4899" stroke-width="2"/>
+    <path d="M 0 -10 L 0 15" stroke="#be185d" stroke-width="3"/>
+    <path d="M -25 -2 Q 0 -15 25 -2 Q 15 8 0 5 Q -15 8 -25 -2" fill="#ec4899"/>
+
+    <!-- stems (draw in sequence) -->
+    <path d="M 0 -10 Q -5 -70 -20 -140" fill="none" stroke="#4ade80" stroke-width="3" stroke-linecap="round"
+          stroke-dasharray="200" stroke-dashoffset="200">
+      <animate attributeName="stroke-dashoffset" from="200" to="0" dur="1.5s" fill="freeze"/>
+    </path>
+    <path d="M 0 -10 Q 0 -80 0 -160" fill="none" stroke="#4ade80" stroke-width="3" stroke-linecap="round"
+          stroke-dasharray="200" stroke-dashoffset="200">
+      <animate attributeName="stroke-dashoffset" from="200" to="0" dur="1.5s" begin="0.3s" fill="freeze"/>
+    </path>
+    <path d="M 0 -10 Q 5 -75 30 -150" fill="none" stroke="#4ade80" stroke-width="3" stroke-linecap="round"
+          stroke-dasharray="200" stroke-dashoffset="200">
+      <animate attributeName="stroke-dashoffset" from="200" to="0" dur="1.5s" begin="0.6s" fill="freeze"/>
+    </path>
+    <path d="M 0 -10 Q -10 -65 -50 -120" fill="none" stroke="#4ade80" stroke-width="3" stroke-linecap="round"
+          stroke-dasharray="200" stroke-dashoffset="200">
+      <animate attributeName="stroke-dashoffset" from="200" to="0" dur="1.5s" begin="0.9s" fill="freeze"/>
+    </path>
+    <path d="M 0 -10 Q 15 -70 60 -110" fill="none" stroke="#4ade80" stroke-width="3" stroke-linecap="round"
+          stroke-dasharray="200" stroke-dashoffset="200">
+      <animate attributeName="stroke-dashoffset" from="200" to="0" dur="1.5s" begin="1.2s" fill="freeze"/>
+    </path>
+
+    <!-- leaves -->
+    <ellipse cx="-10" cy="-70" rx="10" ry="20" fill="#86efac" transform="rotate(-30 -10 -70)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="1.8s" fill="freeze"/>
+    </ellipse>
+    <ellipse cx="15" cy="-80" rx="9" ry="18" fill="#86efac" transform="rotate(25 15 -80)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="2s" fill="freeze"/>
+    </ellipse>
+    <ellipse cx="-25" cy="-50" rx="8" ry="16" fill="#86efac" transform="rotate(-50 -25 -50)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="2.2s" fill="freeze"/>
+    </ellipse>
+
+    <!-- flower 1: rose -->
+    <g transform="translate(-20 -140)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="2.4s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="scale" values="0;1.2;1" dur="1s" begin="2.4s" fill="freeze" additive="sum"/>
+      <circle r="22" fill="url(#petal)"/>
+      <circle r="14" fill="#f9a8d4"/>
+      <circle r="7" fill="#fce7f3"/>
+      <circle r="3" fill="#be185d"/>
+    </g>
+
+    <!-- flower 2: peony -->
+    <g transform="translate(0 -160)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="2.7s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="scale" values="0;1.2;1" dur="1s" begin="2.7s" fill="freeze" additive="sum"/>
+      <circle cx="-12" cy="-5" r="13" fill="url(#petal2)"/>
+      <circle cx="12" cy="-5" r="13" fill="url(#petal2)"/>
+      <circle cx="0" cy="-15" r="13" fill="url(#petal2)"/>
+      <circle cx="-8" cy="10" r="13" fill="url(#petal2)"/>
+      <circle cx="8" cy="10" r="13" fill="url(#petal2)"/>
+      <circle r="10" fill="#fdf2f8"/>
+      <circle r="4" fill="#ec4899"/>
+    </g>
+
+    <!-- flower 3: tulip -->
+    <g transform="translate(30 -150)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="3s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="scale" values="0;1.2;1" dur="1s" begin="3s" fill="freeze" additive="sum"/>
+      <path d="M -12 5 Q -15 -15 0 -20 Q 15 -15 12 5 Q 6 8 0 5 Q -6 8 -12 5 Z" fill="url(#petal3)"/>
+      <path d="M -8 0 Q -10 -10 0 -12 Q 10 -10 8 0" fill="#fda4af"/>
+    </g>
+
+    <!-- flower 4: daisy -->
+    <g transform="translate(-50 -120)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="3.3s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="scale" values="0;1.2;1" dur="1s" begin="3.3s" fill="freeze" additive="sum"/>
+      <ellipse cx="0" cy="-14" rx="5" ry="11" fill="#fff1f2"/>
+      <ellipse cx="0" cy="14" rx="5" ry="11" fill="#fff1f2"/>
+      <ellipse cx="-14" cy="0" rx="11" ry="5" fill="#fff1f2"/>
+      <ellipse cx="14" cy="0" rx="11" ry="5" fill="#fff1f2"/>
+      <ellipse cx="-10" cy="-10" rx="5" ry="11" fill="#fff1f2" transform="rotate(-45 -10 -10)"/>
+      <ellipse cx="10" cy="-10" rx="5" ry="11" fill="#fff1f2" transform="rotate(45 10 -10)"/>
+      <ellipse cx="-10" cy="10" rx="5" ry="11" fill="#fff1f2" transform="rotate(45 -10 10)"/>
+      <ellipse cx="10" cy="10" rx="5" ry="11" fill="#fff1f2" transform="rotate(-45 10 10)"/>
+      <circle r="6" fill="#fbbf24"/>
+    </g>
+
+    <!-- flower 5: small bud -->
+    <g transform="translate(60 -110)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="3.6s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="scale" values="0;1.2;1" dur="1s" begin="3.6s" fill="freeze" additive="sum"/>
+      <circle r="13" fill="url(#petal)"/>
+      <circle r="7" fill="#fbcfe8"/>
+      <circle r="2" fill="#be185d"/>
+    </g>
+  </g>
+
+  <!-- name + tagline -->
+  <text x="470" y="120" font-family="Georgia, serif" font-style="italic" fill="#be185d" font-size="56" opacity="0">
+    Tuğba Zengin
+    <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="4s" fill="freeze"/>
+  </text>
+  <line x1="470" y1="140" x2="800" y2="140" stroke="#ec4899" stroke-width="1" stroke-dasharray="3,4" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="4.3s" fill="freeze"/>
+  </line>
+  <text x="470" y="170" font-family="Courier New, monospace" fill="#831843" font-size="14" letter-spacing="3" opacity="0">
+    iOS  ·  SWIFT  ·  NEXT.JS  ·  NODE.JS
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="4.5s" fill="freeze"/>
+  </text>
+  <text x="470" y="190" font-family="Courier New, monospace" fill="#831843" font-size="14" letter-spacing="3" opacity="0">
+    POSTGRESQL  ·  DOCKER  ·  CI/CD
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="4.7s" fill="freeze"/>
+  </text>
+  <text x="470" y="230" font-family="Georgia" font-style="italic" fill="#831843" font-size="16" opacity="0">
+    "a garden of code, grown one commit at a time."
+    <animate attributeName="opacity" from="0" to="1" dur="1.5s" begin="5s" fill="freeze"/>
+  </text>
+</svg>
