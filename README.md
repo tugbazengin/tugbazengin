@@ -96,31 +96,42 @@
 <br/>
 
 <!-- ============================================================
-     SECTION 5 — STATS
+     SECTION 5 — ON THE NIGHTSTAND (replaces stats)
      ============================================================ -->
 
-## 🌷 a few numbers
-
-<div align="center">
+## 📚 on my nightstand
 
 <table>
 <tr>
-<td>
+<td width="50%" valign="top">
 
-<img height="155" src="https://github-readme-stats.vercel.app/api?username=tugbazengin&show_icons=true&theme=rose-pine&hide_border=true&include_all_commits=true&hide_title=true&hide_rank=true&card_width=320" />
+**📖 reading**
+<sub>· *The Pragmatic Programmer* — Hunt & Thomas<br/>
+· *Refactoring* — Martin Fowler<br/>
+· *A Philosophy of Software Design* — Ousterhout</sub>
+
+**🎧 listening to while coding**
+<sub>· lofi girl ↗ youtube<br/>
+· *In Rainbows* — Radiohead<br/>
+· *Currents* — Tame Impala</sub>
 
 </td>
-<td>
+<td width="50%" valign="top">
 
-<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tugbazengin&layout=donut-vertical&theme=rose-pine&hide_border=true&langs_count=6&hide_title=true&card_width=280" />
+**☕ favorite coding fuel**
+<sub>· jasmine tea (morning)<br/>
+· flat white (afternoon)<br/>
+· chamomile (when CI is angry)</sub>
+
+**🌟 chasing this year**
+<sub>· ship a personal iOS app to TestFlight<br/>
+· contribute to a Swift open-source project<br/>
+· write a blog post about CI/CD for iOS<br/>
+· learn SwiftData properly</sub>
 
 </td>
 </tr>
 </table>
-
-<sub>📊 numbers don't measure care, but they're a fun receipt.</sub>
-
-</div>
 
 <br/>
 
@@ -145,9 +156,7 @@
 
 ## ✉️ send me a postcard
 
-<div align="center">
-
-```
+<pre align="center" style="background:#fdf2f8;border:2px dashed #ec4899;padding:18px;display:inline-block;">
 ┌─────────────────────────────────────────────────┐
 │                                                 │
 │   to: Tuğba Zengin                  🌷 stamp 🌷 │
@@ -161,8 +170,9 @@
 │   ✿ GitHub    @tugbazengin                      │
 │                                                 │
 └─────────────────────────────────────────────────┘
-```
+</pre>
 
+<div align="center">
 <br/>
 
 <a href="https://linkedin.com/in/tugbazengin"><img src="https://img.shields.io/badge/linkedin-write_me-be185d?style=flat-square&logo=linkedin&logoColor=white&labelColor=fce7f3" /></a>
