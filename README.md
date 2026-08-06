@@ -12,131 +12,40 @@
 <br/>
 
 <!-- ============================================================
-     SECTION 1 — A LITTLE LETTER
+     — A LITTLE LETTER
      ============================================================ -->
 
 > 💌 **a letter from my desk**
 >
-> Hi, I'm Tuğba — an iOS developer who spends mornings sketching SwiftUI views in a notebook, afternoons wrangling PostgreSQL schemas, and evenings deploying with Docker over a cup of jasmine tea. I think software is a small, kind act done at scale. This page is a window into the things I'm planting, tending, and harvesting.
+> Hi, I'm Tuğba — a computer engineering graduate focused on Swift and backend technologies. I spend my time designing clean application architectures, working with databases, and building reliable systems. I believe that software is a small, meaningful act that touches lives even at scale. This page is a window into the projects I bring to life, develop, and pour effort into.
+
+— welcome to my digital space 🌷
 >
 > — written from somewhere between Xcode and a terminal 🌷
 
 <br/>
 
-<!-- ============================================================
-     SECTION 2 — POLAROID GALLERY
-     ============================================================ -->
-
-## 📷 from the studio
-
-<table>
-<tr>
-<td align="center" width="33%">
-
-<sub><i>· No. 01 ·</i></sub><br/>
-<b><code>Bloom.swift</code></b><br/>
-<sub>a SwiftUI journaling app with<br/>haptic feedback & widgets</sub><br/><br/>
-<code>SwiftUI · Combine · CoreData</code>
-
-</td>
-<td align="center" width="33%">
-
-<sub><i>· No. 02 ·</i></sub><br/>
-<b><code>Petal.next</code></b><br/>
-<sub>a Next.js admin dashboard with<br/>server actions & streaming UI</sub><br/><br/>
-<code>Next.js 15 · Prisma · Postgres</code>
-
-</td>
-<td align="center" width="33%">
-
-<sub><i>· No. 03 ·</i></sub><br/>
-<b><code>Greenhouse.ci</code></b><br/>
-<sub>a self-hosted GitHub Actions<br/>runner for iOS + web deploys</sub><br/><br/>
-<code>Docker · Fastlane · GH Actions</code>
-
-</td>
-</tr>
-</table>
-
-<sub>📌 these are working titles — sometimes a project changes its name twice before I'm done with it.</sub>
-
-<br/>
 
 <!-- ============================================================
-     SECTION 3 — TOOLBOX AS A SHELF
+     — TOOLBOX AS A SHELF
      ============================================================ -->
 
 ## 🧺 the toolbox on my shelf
 
 <table>
-<tr><th align="left">🍎</th><td align="left"><b>iOS</b> &nbsp; Swift · SwiftUI · UIKit · Combine · Core Data · XCTest · TestFlight</td></tr>
-<tr><th align="left">🌸</th><td align="left"><b>web</b> &nbsp; Next.js · React · TypeScript · Tailwind · tRPC · React Query</td></tr>
+<tr><th align="left">🍎</th><td align="left"><b>iOS</b> &nbsp; Swift · SwiftUI · Core Data · XCTest · TestFlight</td></tr>
+<tr><th align="left">🌸</th><td align="left"><b>web</b> &nbsp; Next.js · React · TypeScript</td></tr>
 <tr><th align="left">🌱</th><td align="left"><b>server</b> &nbsp; Node.js · Express · NestJS · Prisma · REST · GraphQL</td></tr>
-<tr><th align="left">🐘</th><td align="left"><b>data</b> &nbsp; PostgreSQL · Redis · SQLite · query tuning · migrations</td></tr>
-<tr><th align="left">🐳</th><td align="left"><b>devops</b> &nbsp; Docker · Docker Compose · GitHub Actions · Fastlane · Nginx · Linux</td></tr>
-<tr><th align="left">🎀</th><td align="left"><b>design</b> &nbsp; Figma · SF Symbols · Storybook · accessibility-first thinking</td></tr>
+<tr><th align="left">🐘</th><td align="left"><b>data</b> &nbsp; PostgreSQL · SQLite · migrations</td></tr>
+<tr><th align="left">🐳</th><td align="left"><b>devops</b> &nbsp; Docker · Docker Compose · GitHub · Linux</td></tr>
 </table>
 
 <br/>
 
-<!-- ============================================================
-     SECTION 4 — TODAY I'M WORKING ON
-     ============================================================ -->
 
-## 🌿 today on my desk
-
-```diff
-+ shipping a SwiftUI animation that took 4 prototypes to feel right
-+ writing a CI workflow that runs SwiftLint, tests, and ships TestFlight
-~ reviewing a friend's Next.js PR
-~ reading: "Hackers & Painters" — for the fifth time, no regrets
-- waiting on: a flaky Xcode preview to please render
-```
-
-<br/>
 
 <!-- ============================================================
-     SECTION 5 — ON THE NIGHTSTAND (replaces stats)
-     ============================================================ -->
-
-## 📚 on my nightstand
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**📖 reading**
-<sub>· *The Pragmatic Programmer* — Hunt & Thomas<br/>
-· *Refactoring* — Martin Fowler<br/>
-· *A Philosophy of Software Design* — Ousterhout</sub>
-
-**🎧 listening to while coding**
-<sub>· lofi girl ↗ youtube<br/>
-· *In Rainbows* — Radiohead<br/>
-· *Currents* — Tame Impala</sub>
-
-</td>
-<td width="50%" valign="top">
-
-**☕ favorite coding fuel**
-<sub>· jasmine tea (morning)<br/>
-· flat white (afternoon)<br/>
-· chamomile (when CI is angry)</sub>
-
-**🌟 chasing this year**
-<sub>· ship a personal iOS app to TestFlight<br/>
-· contribute to a Swift open-source project<br/>
-· write a blog post about CI/CD for iOS<br/>
-· learn SwiftData properly</sub>
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<!-- ============================================================
-     SECTION 6 — A SHORT MANIFESTO
+     — A SHORT MANIFESTO
      ============================================================ -->
 
 ## 🌼 how I like to build
@@ -151,7 +60,7 @@
 <br/>
 
 <!-- ============================================================
-     SECTION 7 — POSTCARD
+     — POSTCARD
      ============================================================ -->
 
 ## ✉️ send me a postcard
@@ -166,7 +75,7 @@
 │   re: a project · a question · a coffee idea    │
 │                                                 │
 │   ✿ LinkedIn  /in/tugbazengin                   │
-│   ✿ Mail      tugbazengin@example.com           │
+│   ✿ Mail      tugbazenginm@gmail.com           │
 │   ✿ GitHub    @tugbazengin                      │
 │                                                 │
 └─────────────────────────────────────────────────┘
